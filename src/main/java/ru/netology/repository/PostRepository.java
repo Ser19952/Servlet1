@@ -17,6 +17,7 @@ public class PostRepository {
   private final AtomicLong idPost = new AtomicLong();
 
   public List<Post> all() {
+
     return new ArrayList<>(posts.values());
   }
 
